@@ -1,6 +1,7 @@
 """Perform tests of the fizz_buzz function."""
-from fizzbuzz import fizz_buzz
 import pytest
+
+from fizzbuzz import fizz_buzz
 
 inputs = [3, 5, 15, 4, 10, 115, 7]
 outputs = ["fizz", "buzz", "fizzbuzz", "4", "buzz", "buzz", "7"]
